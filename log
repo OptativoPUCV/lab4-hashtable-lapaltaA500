@@ -27,3 +27,15 @@ Fri 26 Apr 2024 05:33:00 AM UTC:
  tests:  5|4
 total_score: 30/70
 32d4e5b
+Fri 26 Apr 2024 05:46:45 AM UTC: 
+ hashmap.c | 15 ++++++++-------
+ 1 file changed, 8 insertions(+), 7 deletions(-)
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: /tmp/ccAkU0O9.o: in function `search_test1':
+test.c:(.text+0xc42): undefined reference to `searchMap'
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: /tmp/ccAkU0O9.o: in function `search_test2':
+test.c:(.text+0xd03): undefined reference to `searchMap'
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: /tmp/ccAkU0O9.o: in function `search_test3':
+test.c:(.text+0xd87): undefined reference to `searchMap'
+collect2: error: ld returned 1 exit status
+Compilation failed
+9709205
