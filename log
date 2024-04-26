@@ -39,3 +39,13 @@ test.c:(.text+0xd87): undefined reference to `searchMap'
 collect2: error: ld returned 1 exit status
 Compilation failed
 9709205
+Fri 26 Apr 2024 05:46:58 AM UTC: 
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: /tmp/ccdI8siS.o: in function `search_test1':
+test.c:(.text+0xc42): undefined reference to `searchMap'
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: /tmp/ccdI8siS.o: in function `search_test2':
+test.c:(.text+0xd03): undefined reference to `searchMap'
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: /tmp/ccdI8siS.o: in function `search_test3':
+test.c:(.text+0xd87): undefined reference to `searchMap'
+collect2: error: ld returned 1 exit status
+Compilation failed
+68223ff
