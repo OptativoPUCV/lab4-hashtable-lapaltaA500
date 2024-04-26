@@ -2,3 +2,16 @@ Wed 24 Apr 2024 09:43:32 PM UTC:
  tests:  0|6
 total_score: 0/70
 dcf9f75
+Fri 26 Apr 2024 05:03:54 AM UTC: 
+ hashmap.c | 33 +++++++++++++++++++++++++++++----
+ 1 file changed, 29 insertions(+), 4 deletions(-)
+In file included from test.c:4:
+hashmap.c: In function ‘insertMap’:
+hashmap.c:63:20: error: ‘Pair’ has no member named ‘next’
+   63 |         par2 = par2->next;
+      |                    ^~
+hashmap.c:65:11: error: ‘Pair’ has no member named ‘next’
+   65 |       par2->next = par;
+      |           ^~
+Compilation failed
+80ceddc
